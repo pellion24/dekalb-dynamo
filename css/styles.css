@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'TT'; /*a name to be used later*/
+    src: url('https://www.dafont.com/minecraft.font.ttf'); /*URL to font*/
+}
+
+* {
+
+    box-sizing: border-box;
+    border: 1px solid red;
+    margin: 0;
+    /*
+
+    padding: 0;
+    */
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.large-text {
+    font-size: 46px;
+    text-align: center;
+}
+
+body {
+    background-image: url('../img/BackgroundForDynamo.jpg');
+}
+
+nav {
+    background-color: #eeb504;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw - 1300px)/2);
+}
+
+iframe {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.bio, .adasl, .sponsors {
+    background-color: #d60033;
+}
+
+h1, .instagram{
+    text-align: center;
+    background-color: #eeb504;
+}
+
+.logo {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+
+}
+
+element.style {
+    margin: auto auto auto;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-item {
+    flex: 1;
+    text-align: center;
+}
+
+.flex-container div {
+    justify-content: center;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #eeb504;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.instagram-wrapper {
+    max-width: 400px; /* Set your desired maximum width */
+    margin: 20px auto; /* Center it with top/bottom margin */
+    /* border: 1px solid #ddd; /* Example: add a border around the entire embed */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Example: add a subtle shadow */
+    padding: 5px; /* Example: add some internal padding */
+}
+
+.my-instagram-wrapper iframe {
+    width: 100% !important; /* Make it fill the wrapper */
+    /* height: 500px !important; */// Only if you want a fixed height and accept cropping
+    /* Instagram's embed.js often sets a height automatically, so overriding can be tricky. */
+}
+

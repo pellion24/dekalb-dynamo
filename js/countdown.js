@@ -2,7 +2,18 @@ const days = document.getElementById('days');
 const hours = document.getElementById('hours');
 const minutes = document.getElementById('minutes');
 const seconds = document.getElementById('seconds');
+/*
+let games = [];
+//let nextGame = null;
+let intervalID;
 
+function findNextGame(schedule) {
+    const now = new Date();
+    for (let i = 0; i < schedule.length; i++) {
+
+    }
+}
+ */
 const nextGame = new Date('June 22 2025 09:00:00');
 
 //Update Countdown
